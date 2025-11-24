@@ -58,10 +58,10 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # --- LOAD DATA ---
-df = pd.read_csv("HDB_dummies.csv")
+df = pd.read_csv("streamlit_app/HDB_dummies.csv")
 
 # --- LOAD TRAINED MODEL PIPELINE ---
-model = joblib.load("hdb_pipeline.joblib")  # unified pipeline (handles encoding internally)
+model = joblib.load("streamlit_app/hdb_pipeline.joblib")  # unified pipeline (handles encoding internally)
 
 # --- SIDEBAR FILTERS ---
 st.sidebar.header("🏘 Property Filters")
