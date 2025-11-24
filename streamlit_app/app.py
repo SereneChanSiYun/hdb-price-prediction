@@ -90,7 +90,7 @@ hdb_age = st.sidebar.slider("HDB Age (years)", 0, 60, 25)
 # --- BUILD INPUT DATAFRAME ---
 input_data = pd.DataFrame({
     "flat_type": [flat_type],
-    "storey_range": [storey_range],
+    "new_storey_range": [storey_range],
     "planning_area": [planning_area],
     "floor_area_sqft": [floor_area],
     "hdb_age": [hdb_age]
