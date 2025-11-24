@@ -4,7 +4,7 @@ This group project aims to develop a predictive model for a real estate agency i
 This repository contains all documents of the project, including:
 - [2 Jupyter Notebooks](./notebooks) with Part 1: data cleaning and exploratory data analysis, and Part 2: modeling and evaluation
 - [Tableau Dashboard](dashboard/hdb_resale_price_tableau.twbx) for visualisation
-- [Streamlit App](streamlit_app/app.py) with live demo link [here](link)
+- [Streamlit App files](./streamlit_app) with live demo link [here](https://hdb-price-prediction.streamlit.app/)
 - [Presentation Deck](presentation/hdb_resale_price_ppt.pdf)
 - [Datasets](./datasets)
 
