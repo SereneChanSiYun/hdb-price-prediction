@@ -17,6 +17,7 @@ Two main datasets are used in this project: <br>
 *(test dataset containing 16,737 flat ids with their corresponding features to feed into regression model to make predictions)* <br>
 
 Source of these datasets come from https://www.kaggle.com/competitions/dsi-sg-project-2-regression-challenge-hdb-price/data. 
+Final model chosen was used to predict the prices in a sample dataset called sample_sub_reg (found in datasets folder).
 
 ## 📓 Project Framework
 
