@@ -7,7 +7,6 @@ import joblib
 st.set_page_config(page_title="HDB Resale Price Insights", layout="wide")
 
 # --- HERO SECTION ---
-banner_path = "assets/banner2.png"
 
 st.markdown(f"""
     <style>
@@ -15,7 +14,6 @@ st.markdown(f"""
         position: relative;
         width: 100%;
         height: 260px;
-        background-image: url("{banner_path}");
         background-size: cover;
         background-position: center;
         border-radius: 12px;
